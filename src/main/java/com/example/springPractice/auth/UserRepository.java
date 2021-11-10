@@ -4,5 +4,5 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserRepository {
-    public User identifyser(String email);
+    public User identifyUser(String email);
 }
